@@ -1,0 +1,46 @@
+
+// Inclusion d'un font en local
+@font-face {
+  font-family: 'font1';
+  src: url("../assets/fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+// Déclaration des variables
+$font-1: 'font1', sans-serif;
+
+$color-1: #61dafb;
+$color-2: salmon;
+$color-3: #282c34;
+
+$white: rgb(243, 243, 243);
+$black: #181818;
+
+// Fonction pour alignement vertical
+@mixin verticalCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background: $black;
+  font-family: $font-1;
+  // @include verticalCenter
+
+}
+
+li {
+
+  list-style-type: none;
+
+}

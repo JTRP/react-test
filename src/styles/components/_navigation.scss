@@ -1,0 +1,23 @@
+@import "../settings";
+
+ul a {
+
+  text-decoration: none;
+
+  color: $color-2;
+
+  transition: all .3s ease;
+
+  &:hover {
+
+    color: $color-1;
+
+  }
+
+}
+
+.nav-active {
+
+  color: #20abef;
+
+}

@@ -1,0 +1,26 @@
+.logo {
+
+  @include verticalCenter;
+
+  margin: auto;
+
+  width: 25%;
+
+  border-radius: 20px;
+
+  padding: 10px;
+
+   background: url("../../assets/images/gen.jpg");
+
+  img {
+
+    height: 40px;
+
+  }
+
+  h3 {
+    margin-left: 10px;
+    color: $color-1;
+  }
+
+}
