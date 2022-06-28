@@ -1,23 +1,39 @@
 @import "../settings";
 
-ul a {
+.navigation {
 
-  text-decoration: none;
+  margin-top: 20px;
 
-  color: $color-2;
+  ul {
 
-  transition: all .3s ease;
+    display: flex;
 
-  &:hover {
+    flex-direction: row;
 
-    color: $color-1;
+    justify-content: space-around;
 
   }
 
-}
+  ul a {
 
-.nav-active {
+    text-decoration: none;
 
-  color: #20abef;
+    color: $color-2;
+
+    transition: all .3s ease;
+
+    &:hover {
+
+      color: $color-1;
+
+    }
+
+  }
+
+  .nav-active {
+
+    color: #20abef;
+
+  }
 
 }
